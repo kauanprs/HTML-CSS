@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400&display=swap');
+
+
+:root{
+    --color-background: #191c2e;
+    --color-login_form: #1e25443c;
+    --color-text: #f1fdfc;
+    --color-labels: #cde0dd;
+    --color-border: linear-gradient(to left, violet, indigo, blue, green, yellow, orange, red);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Rubik', sans-serif;
+}
+
+#container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: var(--color-background);
+}
+
+#login{
+    background-color: var(--color-login_form);
+    display: flex;
+    flex-direction: column;
+    padding: 30px 40px;
+    gap: 30px;
+    border-radius: 12px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.168);
+    color: var(--color-text);
+    height: fit-content;
+    
+}
+
+#login_header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#login_header i{
+    padding: 0px 15px;
+}
+
+#inputs{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+
+.input-box label {
+    font-size: 14px;
+    color: var(--color-labels)
+}
+
+.input-field {
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     padding: 4px;
+     gap: 5px;
+     cursor: text;
+    border-image: repeating-linear-gradient();
+}
+
+.input-field input{
+    border: none;
+    background-color: transparent;
+    outline: none;
+    margin-left: 5px;
+    color: var(--color-labels);
+    border-bottom: 2px solid rgba(174, 238, 78, 0.545);
+}
+
+#btn {
+    background: transparent;
+    color: var(--color-text);
+    border: none;
+    outline: none;
+    border-radius: 2px;
+}
+

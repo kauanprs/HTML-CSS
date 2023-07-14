@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hover EX</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        div#test > p{
+            display: none;
+        }
+
+        div#test:hover > p{
+            display: block;
+            background-color: aquamarine;
+            color: black;
+            font-family: 'Times New Roman', Times, serif;
+        }
+
+
+        div#test:hover{
+            color: red;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Testando hover</h1>
+    <p>Passe o mouse no texto abaixo</p>
+    <div id="test">
+        Passe a mão aqui jão
+        <p>Texto oculto!</p>
+    </div>
+    <p>Fim do ex</p>
+</body>
+</html>

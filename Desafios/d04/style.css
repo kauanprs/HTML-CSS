@@ -1,0 +1,145 @@
+@charset "UTF-8";
+
+@font-face{
+    font-family: FonteC;
+    src: url("arq/fontes/idroid.otf");
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #84E1AD;
+    margin: 0px;
+    
+    min-width: 280px;
+    max-width: 800px;
+}
+
+p{
+    text-align: justify;
+    text-indent: 35px;
+    padding: 13px;
+}
+
+img{
+    width: 100%;
+}
+
+h1{
+    margin: 0px;
+}
+
+header{
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    background: linear-gradient(to bottom, #38CA79, #32B46C, #1A5E38);
+}
+
+header > h1 {
+    font-weight: bold;
+    margin: 0px;
+    padding: 20px;
+    text-shadow: 3px 3px 7px #00000082;
+}
+
+header > p {
+    text-align: center;
+    text-shadow: 2px 2px 4px #00000094;
+}
+
+nav{
+    text-align: left;
+    margin-top: 64px;
+    margin-left: 14px;
+}
+
+header > nav > a{
+    text-decoration: none;
+    color: white;
+    padding: 0px 10px;
+}
+
+main {
+    background-color: white;
+    margin: 0px 205px;
+    box-shadow: 6px 2px 6px 0px #00000052;
+}
+
+main > article > h1{
+    font-family: FonteC;
+    margin: 0px 8px;
+    color: #528469;
+    padding: 14px;
+    font-size: 28px;
+}
+
+main > article > h2{
+    font-family: FonteC;
+    margin: 0px 20px;
+    padding: 0px 5px;
+    color: #528469;
+    background: linear-gradient(to right, rgba(171,212,189,1) 0%, rgba(235,247,240,0) 100%);
+}
+
+main > div {
+    background-color: #1A5C38;
+}
+
+main > div > iframe {
+    display: block;
+    margin: auto;
+    padding: 21px;
+}
+
+#img{
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+#img2{
+    margin-left: 2%;
+    margin-right: 10%;
+    width: 95%;
+}
+
+#img3{
+    margin-left: 32.5%;
+    margin-right: 32.5%;
+}
+
+.dandroid{
+    color: green;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+main > article#extra{
+    background-color: #C5EBD6;
+    border-radius: 21px;
+    margin: 0px 20px;
+    box-shadow: 4px 3px 6px #0000004f;
+}
+
+h3{
+    color: white;
+    background-color: #2FA866;
+    border-top-left-radius: 21px;
+    border-top-right-radius: 21px;
+    padding: 8px 33px;
+}
+
+ul{
+    display: inline-block;
+
+}
+
+footer{
+    color: white;
+    background-color: #528469;
+}
+
+footer > p {
+    text-align: center;
+    margin: 0px;
+    font-weight: bold;
+}

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Entrar</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <main id="container">
+        <form id="login">
+            <div id="login_header">
+                <h1>Armazenador</h1>
+                <i class="fa-solid fa-envelope"></i>
+            </div>
+
+            <div id="login_options">
+
+            </div>
+
+            <div id="inputs">
+
+                <div class="input-box">
+                    <label for="name">
+                        Nome
+                        <div class="input-field">
+                            <i class="fa-solid fa-user"></i>
+                            <input type="text" name="name" id="name">
+                        </div>
+                    </label>
+                </div>
+
+                <div class="input-box">
+                    <label for="email">
+                        E-mail
+                        <div class="input-field">
+                            <i class="fa-solid fa-inbox"></i>
+                            <input type="email" name="email" id="email">
+                        </div>
+                    </label>
+                </div>
+
+                <div class="input-box">
+                    <label for="password">
+                        Senha
+                        <div class="input-field">
+                            <i class="fa-solid fa-lock"></i>
+                            <input type="password" name="password" id="password">
+                        </div>
+                    </label>
+                </div>
+
+            </div>
+
+            <button id="btn" type="submit" onclick="register()" >Cadastrar</button>
+
+        </form>
+    </main>
+    <script type="text/javascript" src="assets/js/script.js"></script>
+</body>
+</html>
